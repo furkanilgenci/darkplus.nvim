@@ -16,7 +16,7 @@ local Whichkey = require("darkplus.Whichkey")
 local Git = require("darkplus.Git")
 local LSP = require("darkplus.LSP")
 local Quickscope = require("darkplus.Quickscope")
-local Telescope = require("darkplus.Telescope")
+-- local Telescope = require("darkplus.Telescope")
 local NvimTree = require("darkplus.NvimTree")
 local Lir = require("darkplus.Lir")
 local Buffer = require("darkplus.Buffer")
@@ -36,7 +36,7 @@ local Crates = require("darkplus.Crates")
 
 
 local skeletons = {
-    highlights, Treesitter, markdown, Whichkey, Git, LSP, Quickscope, Telescope, NvimTree, Lir, Buffer, StatusLine, IndentBlankline, Dashboard, DiffView, Bookmarks, Bqf, Cmp, Gps, Packer, SymbolOutline, Notify, Misc, Crates
+    highlights, Treesitter, markdown, Whichkey, Git, LSP, Quickscope, NvimTree, Lir, Buffer, StatusLine, IndentBlankline, Dashboard, DiffView, Bookmarks, Bqf, Cmp, Gps, Packer, SymbolOutline, Notify, Misc, Crates
 }
 
 for _, skeleton in ipairs(skeletons) do
